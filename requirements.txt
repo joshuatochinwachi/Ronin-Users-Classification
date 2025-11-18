@@ -11,3 +11,5 @@ dune-client
 python-dotenv
 joblib
 xgboost
+Flask
+gunicorn
