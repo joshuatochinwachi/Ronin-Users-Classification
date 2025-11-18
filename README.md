@@ -52,8 +52,6 @@ Identifying which blockchain users will remain active vs churn is critical for:
 ### Dataset Statistics
 - **Total Records:** 5,000 users
 - **Class Distribution:** Perfectly balanced (2,500 Good, 2,500 Bad)
-- **Historical Period:** 1,757 days of blockchain data available
-- **Total Transactions:** 1.3+ billion transactions analyzed
 
 ### Features (5 numerical features)
 
