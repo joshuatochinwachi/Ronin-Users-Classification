@@ -17,7 +17,7 @@ headers = {"X-DUNE-API-KEY": dune_api_key}
 response = requests.get(url, headers=headers)
 
 # Save to CSV file
-with open("ronin_data.csv", "w") as file:
+with open("ronin_traders_dataset.csv", "w") as file:
     file.write(response.text)
 
-print("Data saved to ronin_data.csv")
+print("Data saved to ronin_traders_dataset.csv")
