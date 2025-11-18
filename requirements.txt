@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+seaborn
+jupyter
+matplotlib
+plotly
+missingno
+imbalanced-learn
+dune-client
+python-dotenv
+joblib
+xgboost
