@@ -9,17 +9,17 @@
 
 ## 📋 Table of Contents
 
-- [Problem Description](#problem-description)
-- [Dataset](#dataset)
-- [Project Structure](#project-structure)
-- [Features](#features)
-- [Model Performance](#model-performance)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Docker Deployment](#docker-deployment)
-- [Results](#results)
-- [Future Improvements](#future-improvements)
+- [Problem Description](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#-problem-description)
+- [Dataset](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#-dataset)
+- [Project Structure](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#-project-structure)
+- [Features](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#-features)
+- [Model Performance](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#-model-performance)
+- [Results](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#-results)
+- [Installation](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#%EF%B8%8F-installation)
+- [Usage](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#-usage)
+- [API Documentation](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#-api-documentation)
+- [Docker Deployment](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#-docker-deployment)
+- [Technologies Used](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#-technologies-used)
 
 ---
 
@@ -44,7 +44,7 @@ Identifying which blockchain users will remain active vs churn is critical for:
 
 ### Data Source
 - **Blockchain:** Ronin Network
-- **Platform:** Dune Analytics
+- **Platform:** Dune Analytics - Query ID [6221750](https://dune.com/queries/6221750)
 - **Time Period:** 
   - Training: 455 days ago → 90 days ago (365-day window)
   - Prediction: Last 90 days
@@ -152,6 +152,29 @@ ronin-users-classification/
 | XGBoost | 90.4% | 0.9619 |
 | Decision Tree | 87.8% | 0.9468 |
 | Logistic Regression | 83.0% | 0.8889 |
+
+---
+
+## 📈 Results ---> Check [RESULTS.md](https://github.com/joshuatochinwachi/Ronin-Users-Classification/blob/main/RESULTS.md) for full details
+
+### Key Findings
+
+1. **Transaction volume is the strongest predictor** (30% importance)
+   - Higher volume → Higher retention
+   
+2. **Consistency matters more than intensity** 
+   - Active weeks (28%) > Transactions per week (9%)
+   
+3. **Model achieves 96.46% ROC-AUC**
+   - Production-ready performance
+   - Balanced precision and recall
+
+### Business Impact
+
+- **Churn Prediction:** Identify 92.6% of users at risk of leaving
+- **Resource Optimization:** Focus retention efforts on predicted churners
+- **Early Warning:** 90-day advance notice for intervention
+- **Accuracy:** 91.4% correct predictions
 
 ---
 
@@ -392,51 +415,6 @@ docker-compose up
 
 ---
 
-## 📈 Results
-
-### Key Findings
-
-1. **Transaction volume is the strongest predictor** (30% importance)
-   - Higher volume → Higher retention
-   
-2. **Consistency matters more than intensity** 
-   - Active weeks (28%) > Transactions per week (9%)
-   
-3. **Model achieves 96.46% ROC-AUC**
-   - Production-ready performance
-   - Balanced precision and recall
-
-### Business Impact
-
-- **Churn Prediction:** Identify 92.6% of users at risk of leaving
-- **Resource Optimization:** Focus retention efforts on predicted churners
-- **Early Warning:** 90-day advance notice for intervention
-- **Accuracy:** 91.4% correct predictions
-
----
-
-## 🔮 Future Improvements
-
-### Model Enhancements
-- [ ] Add temporal features (time since first transaction, recent trend)
-- [ ] Include token diversity (number of unique tokens traded)
-- [ ] Add contract interaction features (DeFi usage)
-- [ ] Implement online learning for continuous updates
-
-### Technical Improvements
-- [ ] Add model versioning
-- [ ] Implement A/B testing framework
-- [ ] Add monitoring and alerting
-- [ ] Create CI/CD pipeline
-- [ ] Add authentication to API
-
-### Data Improvements
-- [ ] Collect more granular data (hourly patterns)
-- [ ] Include market conditions (RON price, gas fees)
-- [ ] Add social features (unique counterparties)
-
----
-
 ## 📚 Technologies Used
 
 - **Python 3.10** - Programming language
@@ -469,6 +447,7 @@ Contributions are welcome! Please:
 
 - X: [@defi__josh](https://x.com/defi__josh)
 - LinkedIn: [Joshua Nwachukwu](https://www.linkedin.com/in/joshua-nwachukwu-1a0037188)
+- Telegram: [@joshuatochinwachi](https://t.me/joshuatochinwachi)
 - Email: joshuatochinwachi@gmail.com
 
 ---
