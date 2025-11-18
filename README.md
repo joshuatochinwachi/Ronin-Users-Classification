@@ -14,7 +14,7 @@
 - [Project Structure](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#-project-structure)
 - [Features](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#-features)
 - [Model Performance](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#-model-performance)
-- [Results](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#-results)
+- [Results](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#-results-----check-resultsmd-for-full-details)
 - [Installation](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#%EF%B8%8F-installation)
 - [Usage](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#-usage)
 - [API Documentation](https://github.com/joshuatochinwachi/Ronin-Users-Classification?tab=readme-ov-file#-api-documentation)
