@@ -452,7 +452,7 @@ docker-compose up
 
 ## 📝 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -467,10 +467,9 @@ Contributions are welcome! Please:
 
 ## 📧 Contact
 
-**Joshua Nwachi**  
-- GitHub: [@joshnwachi](https://github.com/joshnwachi)
-- LinkedIn: [Joshua Nwachi](https://linkedin.com/in/joshuanwachi)
-- Email: your.email@example.com
+- X: [@defi__josh](https://x.com/defi__josh)
+- LinkedIn: [Joshua Nwachukwu](https://www.linkedin.com/in/joshua-nwachukwu-1a0037188)
+- Email: joshuatochinwachi@gmail.com
 
 ---
 
