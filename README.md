@@ -1,8 +1,5 @@
 # Ronin Blockchain User Classification
 
-**ML Zoomcamp Midterm Project**  
-**Author:** Jo$h  
-
 *Predicting which Ronin blockchain users will remain active based on their historical transaction behavior using Machine Learning.*
 
 ---
@@ -459,4 +456,4 @@ Contributions are welcome! Please:
 
 ---
 
-**Built with ❤️ for the ML Zoomcamp Midterm Project**
+**Built with ❤️ for the Ronin Community**

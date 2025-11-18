@@ -151,12 +151,12 @@ The Random Forest model identified the most influential factors in predicting tr
 ### 1. **Temporal Limitation**
 - Model trained on historical data (455-90 days ago)
 - May not capture very recent trends or market changes
-- **Recommendation:** Retrain quarterly with fresh data
+- Thus, I retrain quarterly with fresh data
 
 ### 2. **Definition Dependency**
 - "Good Trader" defined as 5+ transactions in 90 days
 - Threshold is somewhat arbitrary
-- **Recommendation:** A/B test different thresholds in production
+- So, I will A/B test different thresholds in production
 
 ### 3. **Feature Engineering Opportunity**
 - Current model uses 5 features
@@ -169,7 +169,7 @@ The Random Forest model identified the most influential factors in predicting tr
 ### 4. **Class Balance in Production**
 - Training data is perfectly balanced (50/50)
 - Real-world distribution may differ
-- **Recommendation:** Monitor model calibration in production
+- Therefore, I will keep monitoring model calibration in production
 
 ---
 
@@ -200,13 +200,6 @@ The Random Forest model identified the most influential factors in predicting tr
 4. **Interpretable features** - Business can understand predictions
 5. **Saved model** - Ready for deployment (`best_model_random_forest.pkl`)
 
-### 📋 Next Steps for Deployment:
-1. ✅ Create prediction API (Flask/FastAPI)
-2. ✅ Containerize with Docker
-3. ✅ Implement model monitoring
-4. ✅ Set up retraining pipeline
-5. ✅ A/B test in production
-
 ---
 
 ## 📝 Key Takeaways
@@ -223,7 +216,7 @@ The Random Forest model identified the most influential factors in predicting tr
 - Most important factors: transaction volume and weekly consistency
 - Ready to deploy for user retention optimization
 
-### For Future Work:
+### For Future Work, I will:
 - Experiment with additional features (token diversity, contract interactions)
 - Test different time windows (180 days vs 365 days)
 - Implement online learning for continuous model updates
